@@ -1,0 +1,42 @@
+{
+  "files.exclude": {
+    "**/node_modules": false
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    ".nuxt": true
+  },
+  "editor.fontSize": 14,
+  "git.autofetch": true,
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": "@read",
+      "color": "#58ff3b",
+      "backgroundColor": "rgba(88, 255, 59,0.1)",
+      "isWholeLine": true,
+      "border": "solid 1px #58ff3b"
+    },
+    {
+      "text": "@test",
+      "color": "#faa0e9",
+      "backgroundColor": "rgba(250, 160, 233,0.2)",
+      "isWholeLine": true
+    },
+    {
+      "text": "@todo",
+      "color": "#4287f5",
+      "backgroundColor": "rgba(66, 135, 245,0.2)",
+      "isWholeLine": true
+    }
+  ],
+
+  "prettier.singleQuote": false,
+  "prettier.trailingComma": "all",
+  "prettier.arrowParens": "avoid",
+  "prettier.printWidth": 100,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "editor.formatOnSave": true
+}
